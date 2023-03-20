@@ -3,7 +3,7 @@ package Bot;
 public class CommandStart extends BotCommandResponse{
     public CommandStart(){
         super("/start",
-                "стартовое сообщение");
+                "выводит стартовое сообщение");
     }
 
     @Override

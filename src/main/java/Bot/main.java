@@ -22,7 +22,8 @@ public class main {
         Scanner sc = new Scanner(System.in);
         BotLogic logic = new BotLogic();
         while(true){
-            System.out.println(sc.nextLine());
+            logic = new BotLogic(sc.nextLine());
+            logic.getResponse().toConsole();
         }
     }
 }
